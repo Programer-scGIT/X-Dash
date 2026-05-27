@@ -3,7 +3,8 @@ import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
-    base: '/X-Dash/',
+    // МЕНЯЕМ СТРOЧКУ ТУТ (сделай её пустой или './'):
+    base: './',
     plugins: [
         react(),
         VitePWA({
@@ -18,12 +19,12 @@ export default defineConfig({
                 orientation: 'landscape',
                 icons: [
                     {
-                        src: 'icon.png', // Убрали слэш перед именем файла
+                        src: 'icon.png',
                         sizes: '512x512',
                         type: 'image/png'
                     },
                     {
-                        src: 'icon.png', // Убрали слэш перед именем файла
+                        src: 'icon.png',
                         sizes: '512x512',
                         type: 'image/png',
                         purpose: 'any maskable'

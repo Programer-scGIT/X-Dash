@@ -1,16 +1,17 @@
 {
   "name": "x-dash",
   "version": "1.0.0",
-  "description": "",
+  "description": "Geometry Dash Runner Game",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vite"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "devDependencies": {
     "@tailwindcss/postcss": "^4.3.0",
     "@vitejs/plugin-react": "^6.0.2",
